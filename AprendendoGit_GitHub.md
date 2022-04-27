@@ -20,7 +20,8 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
    - git add <arquivo.txt> -> Adiciona os arquivos modificados para a área de *"espera"*, para realizar um commit.
    - git status -> Mostra as modificações pendentes.
    - git commit -m <"título do commit"> -> Salva as alterações feitas.
-   - 
+   - git remote add origin <link do repositório> -> conecta o git local com seu repositório do Git Hub.
+   - git push -u origin main -> Enviar as mudanças para o repositório remoto.
   
 
     
