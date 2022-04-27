@@ -22,6 +22,10 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
    - git commit -m <"título do commit"> -> Salva as alterações feitas.
    - git remote add origin <link do repositório> -> conecta o git local com seu repositório do Git Hub.
    - git push -u origin main -> Enviar as mudanças para o repositório remoto.
+   - git checkout -b "nome branch" -> Cria uma nova *Branch* e ""entra nela"".
+   - git merge <nome branch> -> Navega para a *Branch* selecionada.
+
+
   
 
     
