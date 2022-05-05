@@ -1,15 +1,15 @@
 Um problema recorrente idependente da linguagem de programação é o de ordenar listas ou outros iteraveis, 
-no Java quando se trata de uma lista de **String** ou **Integer** esse processo fica bem simples, pois existe uma coelção que auxilia nessa ordenação.
+no Java quando se trata de uma lista de **String** ou **Integer** esse processo fica bem simples, pois existe uma coleção que auxilia nessa ordenação.
 
 #### EXEMPLO:
 
-  ``` bash 
+  ``` java 
   import java.util.List;
   import java.util.ArrayList;
   import java.util.Collections;
   ```
   ```Essas linhas de comando importam as classes e métodos da coleção "util" que são necessárias para o exemplo. ```
-  ``` bash
+  ``` java
   List<String> list = new ArrayList<>();
   
   list.add("Ola");
@@ -18,7 +18,7 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
   ```
   ``` O exemplo acima instancia um objeto chamado "list" da classe List, para que possam ser adicionados valores a ela como exemplificado. ```
   
-  ``` bash
+  ``` java
   Collections.sort(list);
   ```
   ``` Como a lista usada no exemplo possuí valores do tipo "String" o método ".sort" da classe "Collections" ordena essa lista em ordem alfabética como padrão. ```
@@ -35,14 +35,14 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
   
   #### EXEMPLO
   
-  ``` bash
+  ``` java
   public Conta implements Comparable {
   
   private int numero;
   private String titular;
   ```
   ``` O código acima cria uma Classe chamada "Conta" com dois atributos "numero" e "titular" e implementa nela a interface "Comparable" ```
-  ```bash 
+  ```java 
   public int compareTo(Conta outraConta){
     if (this.numero < outraConta.numero){
       return -1;
@@ -61,7 +61,7 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
  
   A interface "Comparator" possuí um método que recebe dois objetos do mesmo tipo e compara eles.
   
-  ```bash 
+  ```java 
   int compare(T o1, T o2);
   ```
   Instanciaremos então um objeto como no exemplo abaixo:
@@ -78,7 +78,7 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
   
   Após isso instanciamos um objeto da Classe que acabamos de criar e chamamos o método Collections.sort denovo.
   
-  ```bash
+  ```java
   Collections.sort(lista, com);
   ```
   ``` O código acima compara os valores da lista e retorna pra gente os objetos com nome do titular em ordem crescente.```
