@@ -16,39 +16,39 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
 
 ## Principais comandos GIT
 
-``` Inicializa um repositório git vazio. ```
+``` Inicializa um repositório git vazio: ```
 ```bash
     git init 
 ```
-``` Adiciona os arquivos modificados para a área de "espera", para realizar um commit. ```
+``` Adiciona os arquivos modificados para a área de "espera", para realizar um commit: ```
 ``` bash 
    git add <nome do arquivo>
 ```
-``` Mostra as modificações pendentes.  ```
+``` Mostra as modificações pendentes:  ```
 ``` bash 
    git status
 ```
-``` Salva as alterações feitas. ```
+``` Salva as alterações feitas: ```
 ``` bash 
    git commit -m "título do commit"
 ```
-``` Modifica o nome da branch atual. ```
+``` Modifica o nome da branch atual: ```
 ``` bash 
    git branch -m "novo nome"
 ```
-``` conecta o git local com seu repositório do Git Hub. ```
+``` conecta o git local com seu repositório do Git Hub: ```
 ``` bash 
    git remote add origin <link do repositório do git hub>
 ```
-``` Envia as mudanças para o repositório remoto. ```
+``` Envia as mudanças para o repositório remoto: ```
 ``` bash 
    git push origin main
 ```
-``` Cria uma nova Branch e ""entra nela"". ```
+``` Cria uma nova Branch e ""entra nela"": ```
 ``` bash 
    git checkout -b "nome da branch"
 ```
-``` Navega para a Branch selecionada. ```
+``` Navega para a Branch selecionada: ```
 ``` bash 
    git checkout "nome da branch"
 ```
