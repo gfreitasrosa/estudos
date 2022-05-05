@@ -87,6 +87,7 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
   
   Após estudar um pouco sobre **Comparable** e **Comparator** eu concluo que a interface "Comparable" é melhor utilizada quando precisa-se ordenar por atributos numericos e de maneira natural, ja que a lógica é padrão, já o "Comparator" não precisa nem ser implementado para funcionar, e é melhor utilizado quando precisamos ordenar Strings ou criar lógicas própias de ordenação.
   
-[VOLTAR](/README.md)
+  
+[<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md) 
   
   
