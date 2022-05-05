@@ -53,3 +53,4 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
    git checkout "nome da branch"
 ```
 
+[<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
