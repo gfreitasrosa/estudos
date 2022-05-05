@@ -9,6 +9,7 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Enumerate](/Java/Enumerate.md)
   ### 3. [Banco de dados](/BD) <img src="https://cdn-icons.flaticon.com/png/512/5732/premium/5732837.png?token=exp=1651699162~hmac=0d7286de87b921b6dd98eb8dfd9e4121" alt="Banco de dados" width="20px" >
   - [My SQL](/BD/MySQL)
+  ### 4. [Python](/Python) <img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" title="ícone Python  Livre" alt="ícone python" width="30px">
 
   
 
