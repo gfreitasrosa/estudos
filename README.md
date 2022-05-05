@@ -1,6 +1,6 @@
 ## Anotações dos estudos!
 
-Criei esse repositório com o intuito de fazer anotações e melhorar meus estudos de algumas tecnologias e seus conceitos, os conteúdos contidos aqui não estão em ordem e muitas vezes não estão completos, por isso o objetivo não é servir como um roadmap ou algo do tipo. Mas alguns resumos estão ficando bons vai?!
+Criei esse repositório com o intuito de fazer anotações e melhorar meus estudos de algumas tecnologias e seus conceitos. Os conteúdos contidos aqui não estão em ordem e muitas vezes não estão completos, por isso o objetivo não é servir como um roadmap ou algo do tipo. Mas alguns resumos estão ficando bons vai?!
 
   
   ### 1. [Git e Git Hub](/Git_GitHub/AprendendoGit_GitHub.md) <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="30px"/>
