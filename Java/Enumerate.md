@@ -59,5 +59,4 @@ O enum é muito importante dentro da programação em Java pois é utilizado par
   - Permite o uso de atributos, construtores e métodos.
  
 
-
-
+[<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
