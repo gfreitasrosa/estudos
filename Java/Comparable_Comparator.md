@@ -83,7 +83,7 @@ no Java quando se trata de uma lista de **String** ou **Integer** esse processo 
   ```
   ``` O código acima compara os valores da lista e retorna pra gente os objetos com nome do titular em ordem crescente.```
   
-  ## CONCLUSÃO
+  ### CONCLUSÃO
   
   Após estudar um pouco sobre **Comparable** e **Comparator** eu concluo que a interface "Comparable" é melhor utilizada quando precisa-se ordenar por atributos numericos e de maneira natural, ja que a lógica é padrão, já o "Comparator" não precisa nem ser implementado para funcionar, e é melhor utilizado quando precisamos ordenar Strings ou criar lógicas própias de ordenação.
   
