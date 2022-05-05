@@ -1,4 +1,6 @@
-## Repositório criado para anotações dos meus estudos
+## Anotações dos estudos
+
+Criei esse repositório com o intuito de fazer anotações e melhorar meus estudos de algumas tecnologias, o conteúdo contido aqui não está em ordem e muitas vezes não está completo, mas alguns resumos estão ficando bons vai?!
 
   
   ### 1. [Git e Git Hub](/Git_GitHub/AprendendoGit_GitHub.md) <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="30px"/>
