@@ -46,6 +46,8 @@ Para iterar sobre uma lista podemos utilizar o "foreach", como no exemplo abaixo
 O exemplo acima mostra como se implementa uma variável do tipo Set, utilizando a classe "TreeSet" assim como a List o Set é uma interface, não podendo então instanciar um objeto, o que gera a necessidade de utilizar o "TreeSet", "HashSet" ou "LinkedHashSet".
 
 "TreeSet" -> 
+
 "HashSet" ->
+
 "LinkedHashSet" ->
   
