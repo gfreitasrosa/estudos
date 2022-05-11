@@ -52,5 +52,9 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
 ``` bash 
    git checkout "nome da branch"
 ```
+``` Realiza o merge entre a branch que o usuário está com a branch escolhida:```
+```bash 
+   git merge <nome da branch>
+```
 
 [<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
