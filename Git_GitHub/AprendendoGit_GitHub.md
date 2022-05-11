@@ -16,6 +16,10 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
 
 ## Principais comandos GIT
 
+```Clone um repositório remoto para a sua máquina:```
+```bash
+   git clone <url do repositório>
+```
 ``` Inicializa um repositório git vazio: ```
 ```bash
     git init 
