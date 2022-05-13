@@ -20,7 +20,7 @@ Alguns dos principais métodos das listas são:
 
 ```.sort()``` -> Ordena a lista de forma alfabética ou crescente.
 
-  **Para o método ".sort()" funcionar com listas de objetos, necessitamos utilizar as interfaces [Comparable](/Comparable_Comparator) ou [Comparator](/Comparable_Comparator).
+  **Para o método ".sort()" funcionar com listas de objetos, necessitamos utilizar as interfaces [Comparable](/Java/Comparable_Comparator) ou [Comparator](/Java/Comparable_Comparator).
 
 ```.clear()``` -> Limpa a lista.
 
