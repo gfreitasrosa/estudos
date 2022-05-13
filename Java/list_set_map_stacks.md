@@ -49,9 +49,21 @@ Para iterar sobre uma lista o melhor método é utilizar o "foreach", como no ex
 ```
 O exemplo acima mostra como se implementa uma variável do tipo Set, utilizando a classe "TreeSet" assim como a List o Set é uma interface, não podendo então instanciar um objeto, o que gera a necessidade de utilizar o "TreeSet", "HashSet" ou "LinkedHashSet".
 
-"TreeSet" -> Fornecem ordenação natural e os elementos usados como paramêtro necessitam implementar a interface "Comparable".
+"TreeSet" -> Fornecem ordenação natural, os elementos usados como paramêtro necessitam implementar a interface "Comparable" e não aceita valores do tipo nulo.
 
-"HashSet" -> 
+"HashSet" -> Não tem ordenação no armazenando de dados, velocidade alta de escrita e leitura de valores e aceita valores do tipo nulo.
 
-"LinkedHashSet" ->
+"LinkedHashSet" -> Mesmas características que a interfade "HashSet" porém utiliza lista ligada, que retorna os valores por ordem de inserção.
+
+## Map
+
+Relação de chave-valor entre os dados, um valor pode conter apenas uma chave.
+
+```java
+  Map<int, String=""> names = new TreeMap<>();
+```
+
+O exemplo acima mostra como incializar uma variavel do tipo "Map" e instaciar um objeto implementando a interface "TreeSet".
+
+
   
