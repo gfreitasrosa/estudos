@@ -12,7 +12,7 @@ No entanto para instanciar uma "List" é preciso utilizar uma das classes que a 
   
   numbers = new LinkedList<>();
 ```
-A "ArrayList" é uma lista de tamanho infinito que possui facil armazenamento e verificação de dados. No entando na "LinkedList" é mais facil excluir um valor do que na Array, ja que ao exclui-lo não ficara nenhum espaço vazio no meio da lista.
+A "ArrayList" é uma lista de tamanho infinito que possui rapido retorno caso necessite pesquisar um valor na lista, porém é lento caso necessite inserir um valor no início da lista, pois todos os elementos da lista serão deslocado um casa para direita. Já a "LinkedList" utiliza um conceito chamado lista ligada, o que faz com que inserir e remover valores dela seja consideravelmente mais rapido do que ja "ArrayList", porém pesquisar um valor nela é lento, já que é preciso percorrer toda a lista.
 
 Alguns dos principais métodos das listas são:
 
@@ -20,7 +20,7 @@ Alguns dos principais métodos das listas são:
 
 ```.sort()``` -> Ordena a lista de forma alfabética ou crescente.
 
-  **Para o método ".sort()" funcionar com listas de objetos, necessitamos utilizar as interfaces [Comparable](/Java/Comparable_Comparator.md) ou [Comparator](/Java/Comparable_Comparator.md).
+  *Para o método ".sort()" funcionar com listas de objetos, necessitamos utilizar as interfaces [Comparable](/Java/Comparable_Comparator.md) ou [Comparator](/Java/Comparable_Comparator.md).*
 
 ```.clear()``` -> Limpa a lista.
 
@@ -51,7 +51,7 @@ O exemplo acima mostra como se implementa uma variável do tipo Set, utilizando 
 
 "TreeSet" -> Fornecem ordenação natural e os elementos usados como paramêtro necessitam implementar a interface "Comparable".
 
-"HashSet" ->
+"HashSet" -> 
 
 "LinkedHashSet" ->
   
