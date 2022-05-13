@@ -5,7 +5,7 @@
 ```java 
   List<Integer> numbers;
 ```
-No entanto para instanciar uma "List" é preciso utilizar uma das classes que a implementam, como: ```ArrayList<>()``` ou ```LinkedList<>()```. por exemplo abaixo:
+No entanto para instanciar uma "List" é preciso utilizar uma das classes que a implementam, como: ```ArrayList<>()``` ou ```LinkedList<>()```. como no  exemplo abaixo:
 
 ```java 
   numbers = new ArrayList<>();
@@ -20,13 +20,17 @@ Alguns dos principais métodos das listas são:
 
 ```.sort()``` -> Ordena a lista de forma alfabética ou crescente.
 
+  **Para o método ".sort()" funcionar com listas de objetos, necessitamos utilizar as interfaces [Comparable](Java/Comparable_Comparator) ou [Comparator](Java/Comparable_COmparator).
+
 ```.clear()``` -> Limpa a lista.
+
+```.remove()``` -> Recebe como parâmetro um valor que corresponde ao indíce da posição que deseja excluir.
 
 ```.contains()``` -> Verifica se a lista possui o valor passado como parâmetro.
 
 ```.get()``` -> Retorna o valor que está no índice passado como parâmetro.
 
-Para iterar sobre uma lista podemos utilizar o "foreach", como no exemplo abaixo:
+Para iterar sobre uma lista o melhor método é utilizar o "foreach", como no exemplo abaixo:
 
 ```java 
   for(Integer number : numbers){
