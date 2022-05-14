@@ -65,5 +65,7 @@ Relação de chave-valor entre os dados, um valor pode conter apenas uma chave.
 
 O exemplo acima mostra como incializar uma variavel do tipo "Map" e instaciar um objeto implementando a interface "TreeSet".
 
+[<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
+
 
   
