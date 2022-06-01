@@ -16,12 +16,12 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Dicionários](Python/Dicionarios.py)
   - [Dir e Help](Python/Dir_e_Help.py)
   - [Listas](Python/Listas.py)
-  - [Loop for](Python/Loop_for.py)
+  - [Loop For](Python/Loop_for.py)
   - [PEP8](Python/PEP8.py)
   - [Ranges](Python/Ranges.py)
   - [Recebendo dados do usuário](Python/Recebendo_dados_usuario.py)
   - [Tuplas](Python/Tuplas.py)
-  - [While](Python/While.py)
+  - [Loop While](Python/While.py)
  
   
 
