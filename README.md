@@ -19,7 +19,7 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Loop for](Python/Loop_for.py)
   - [PEP8](Python/PEP8.py)
   - [Ranges](Python/Ranges.py)
-  - [recebendo dados do usuário](Python/recebendo_dados_usuario.py)
+  - [Recebendo dados do usuário](Python/Recebendo_dados_usuario.py)
   - [Tuplas](Python/Tuplas.py)
   - [While](Python/While.py)
  
