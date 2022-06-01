@@ -23,7 +23,7 @@ def soma_dois():
 
 numero = 4
 
-numero_impar = 5gi re
+numero_impar = 5
 
 
 (3) - Utilize 4 espaços para indentação!
