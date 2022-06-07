@@ -12,8 +12,12 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
    - Commit -> É a ação de salvar as mudanças feitas no código.
    - Push -> Atualiza seu repositório remoto (Git Hub) com as mudanças salvas no ultimo *Commit*.
    - Pull -> Atualiza seu código local com o reposótório remoto. 
-   - Merge -> Junta as mudanças de diferentes *Branchs*.
-
+   - Merge -> Cria um novo commit na branch escolhida para juntar os commits, a linha temporal do commmits é mantida.
+   - Rebase -> Junta os commits na branch escolhida, porém sem precisar de um novo commit. O commits continuam linear, porém a linha temporal não é mantida.
+   - Stash -> Guarda modificações (WIP) para continuar trabalhar nela em outro momento
+   - Tags -> Cria tags com nome e anotações do estado atual do projeto
+   - Revert -> Apaga modificações de um commit quando necessária, não perde do histórico as mudanças feitas
+   - 
 ## Principais comandos GIT
 
 ```Clone um repositório remoto para a sua máquina:```
@@ -60,5 +64,24 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
 ```bash 
    git merge <nome da branch>
 ```
-
+``` Realiza o rebase entre a branch que o usuário está e branch escolhida```
+```bash
+  git rebase <nome da branch>
+```
+``` Cria atalho para os comandos ```
+```bash
+git config --global alias.<atalho> <comando>
+```
+``` Cria um tag ```
+``` bash
+git tag -a 1.0.0 -m "Versão 1 finalizada"
+```
+``` Faz um revert ```
+```bash
+git revert <hash do commit>
+```
+```Apaga tags ou branchs```
+```bash
+git push origin main :<nome da tag ou da branch>
+```
 [<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
