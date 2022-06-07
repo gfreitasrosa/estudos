@@ -17,7 +17,7 @@ Plataforma online que acabou se tornando uma rede social, na qual é possível a
    - Stash -> Guarda modificações (WIP) para continuar trabalhar nela em outro momento
    - Tags -> Cria tags com nome e anotações do estado atual do projeto
    - Revert -> Apaga modificações de um commit quando necessária, não perde do histórico as mudanças feitas
-   - 
+   
 ## Principais comandos GIT
 
 ```Clone um repositório remoto para a sua máquina:```
