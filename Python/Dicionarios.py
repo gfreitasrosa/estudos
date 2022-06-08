@@ -65,10 +65,55 @@ OBS: Sobre dicionários
 
 # CONCLUSÃO -> EM DICIONÁRIO NÃO PODEMOS TER CHAVES REPITIDAS
 
+# Remover valores
+
+
+    # FORMA 1
+
+    paises.pop("br") (Recebe a chave como parametro para a remoção)
+
+    # FORMA 2 
+
+    del paises.pop("br")
+
+# MÉTODOS DE DICIONÁRIOS
+
+    # Limpar dicionário
+
+        paises.clear()
+
+    # Copiando um dicionário para outro 
+
+        # Deep copy
+
+        novo = paises.copy()
+
+        # Shallow Copy
+
+        novo = paises
+
+# FORMA NÃO USUAL DE CRIAÇÃO DE DICIONÁRIOS
+
+    novo = {}.fromkeys('chave iteravel', 'valor')
+
+                    ou
+    
+    novo = {}.fromkeys(['chave','chave','chave'], 'valor')
+    novo = {}.fromkeys(range(1,11), 'teste')
+    OBS: O método from keys recebe dois valores, um iteravél e um valor
+
+
+
+    
+
+
+
 
 """
 paises = dict(br='Brasil', eua='Estados Unidos')
 
+paises.pop("br")
 
+print(paises)
 
 
