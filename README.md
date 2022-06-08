@@ -15,6 +15,7 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Breaks](Python/Breaks.py)
   - [Dicionários](Python/Dicionarios.py)
   - [Mapas](Python/Mapas.py)
+  - [Conjuntos](Python/Conjuntos.py)
   - [Dir e Help](Python/Dir_e_Help.py)
   - [Listas](Python/Listas.py)
   - [Loop For](Python/Loop_for.py)
