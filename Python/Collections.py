@@ -153,4 +153,32 @@ Named Tuplas -> São tuplas diferenciadas, onde, especificamos um nome para a me
 
 """
 
+"""
+Módulo collections - Duque
+
+Podemos dizer que o deque é uma lista de alta performance.
+
+#   import
+
+from collections import deque
+
+deq = deque('geek')
+
+print(deq)
+
+deq.append('y') # Adiciona no final
+
+print(deq)
+
+deq.appendleft('k') # Adiciona no começo da lista
+
+print(deq)
+
+deq.pop() # Remove o ultimo elemento
+
+deq.popleft() # Remove o primeiro elemento
+
+
+"""
+
 
