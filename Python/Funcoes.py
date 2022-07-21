@@ -19,9 +19,31 @@ Exemplo:
     def exemplo_funcao:
         bloco_de_codigo
 
+OBS: Em Python quando uma função não retorna nenhum valor o retorno é None
 
+Return ->
 
+    1 - Ela finaliza a função
+    2 - Podemos ter mais de um return na função
+    3 - Podemos em uma função retornar qualquer tipo de dado e até mesmo multiplos valores
+
+Funções com parâmetro:
+
+    - Funções podem ter N parâmetros de entrada, de diferentes tipos e separados por vírgula separados por vírgula
+         Exemplo: def soma(a, b):
+                    return a + b
+
+# Argumentos Nomeados (Keywords Arguments)
+
+def nome_completo(nome, sobrenome):
+
+    return nome + " " + sobrenome
+
+print(nome_completo(nome="Gabriel", sobrenome="Rosa"))
 """
+
+
+
 
 
 
