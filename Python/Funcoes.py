@@ -40,8 +40,32 @@ def nome_completo(nome, sobrenome):
     return nome + " " + sobrenome
 
 print(nome_completo(nome="Gabriel", sobrenome="Rosa"))
-"""
 
+* Funcões com Parâmetro Padrâo (Default Paramters)
+
+- funcões onde  passagem de parâmetro seja opcional;
+
+Exemplos:
+
+    def exponencial(numero, potencia=2):
+        return numero ** potencia
+
+    print(exponencial(2))
+
+    print(exponencial(2,3))
+
+
+# Os parâmetros default SEMPRE serão colocados por ultimos, exemplo:
+
+    def exponencial(numero=2, potencia): -> ERRADO
+
+    def exponencial(numero, potencia=2): -> CERTO
+
+# OBS: Se tivermos uma variável global e uma local, a preferência será para a variável local.
+
+# Atenção com variáveis globais (Se puder evitar, evite!)
+
+"""
 
 
 
