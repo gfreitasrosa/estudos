@@ -6,7 +6,7 @@ List Comprehension
 
 # Sintaxe:
 
-    [ dados for dado in iteraável ]
+    [ dados for dado in iterável ]
 
 # EXEMPLOS
 
@@ -27,7 +27,6 @@ pares = [numero for numero in numeros if numero % 2 == 0]
 print(pares)
 
 print([numero * 2 if numero % 2 == 0 else numero / 2 for numero in numeros])
-"""
 
 # Exemplos
 
@@ -38,4 +37,12 @@ pares = [numero for numero in numeros if numero % 2 == 0]
 print(pares)
 
 print([numero * 2 if numero % 2 == 0 else numero / 2 for numero in numeros])
+"""
+
+lista_precos = [500, 1500, 2000, 100, 25]
+
+valor_imposto = [preco * 1.50 if preco > 1000 else preco * 1 for preco in lista_precos]
+
+print(valor_imposto)
+
 
