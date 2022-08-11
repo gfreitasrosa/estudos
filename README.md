@@ -34,7 +34,7 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Recebendo dados do usuário](Python/Recebendo_dados_usuario.py)
   - [Set Comprehensions](Python/Set_comprehension.py)
   - [Tuplas](Python/Tuplas.py) 
-  - [While](Python/While.py)]
+  - [While](Python/While.py)
  
   
 
