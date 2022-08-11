@@ -45,4 +45,6 @@ valor_imposto = [preco * 1.50 if preco > 1000 else preco * 1 for preco in lista_
 
 print(valor_imposto)
 
+string = "alo"
+string.index()
 

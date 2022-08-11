@@ -32,6 +32,6 @@ print(list(areas)) # Convertendo para lista
 
 """
 
-cidades = [("Berlim", 29), ('Cairo', 366), ('Buenos Aires', 19), ('Los Angeles', 26)]
+cidades = [("Berlim", 29), ('Cairo', 36), ('Buenos Aires', 19), ('Los Angeles', 26)]
 
 print(list(map(lambda dado: f"A temperatura de {dado[0]} em Fahrenheit é {dado[1] * 1.8 + 32}", cidades)))
