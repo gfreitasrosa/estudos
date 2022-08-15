@@ -40,3 +40,5 @@ Teste
 Teste Inner Class
 
 ```
+
+[<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
