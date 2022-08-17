@@ -1,4 +1,4 @@
-## Anotações dos estudos!
+## Anotações dos estudos! :books:
 
 Criei esse repositório com o intuito de fazer anotações e melhorar meus estudos de algumas tecnologias e seus conceitos. Os conteúdos contidos aqui não estão em ordem e muitas vezes não estão completos, por isso o objetivo não é servir como um roadmap ou algo do tipo.
 
