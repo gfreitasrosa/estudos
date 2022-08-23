@@ -10,7 +10,7 @@ Criei esse repositório com o intuito de fazer anotações e melhorar meus estud
   - [Equals and ==](/Java/equals_vs_==.md)
   - [List, Set and Map](/Java/list_set_map_stacks.md)
   - [Inner Class](/Java/Innerclass.md)
-  ### 3. [Banco de dados](/BD) <img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/1494/PNG/512/database_102857.png" title="ícone Banco de dados  Livre" alt="ícone banco de dados" width="30px">
+  ### 3. [Banco de dados](/BD) <img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/1494/PNG/512/database_102857.png" title="ícone Banco de dados  Livre" alt="ícone banco de dados" width="40px">
   - [My SQL](/BD/MySQL)
   ### 4. [Python](/Python) <img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" title="ícone Python  Livre" alt="ícone python" width="30px">
   - [args](Python/args.py)
