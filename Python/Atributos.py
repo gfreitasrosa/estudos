@@ -93,4 +93,4 @@ print(p1.peso)
 
 del p1.peso # Remover atributos, tanto dinâmicos como de instância
 
-print(p1.__dict__) 
+print(p1.__dict__)
