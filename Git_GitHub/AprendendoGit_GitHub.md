@@ -90,6 +90,6 @@ git restore <nome_do_arquivo>
 ```
 ``` Restaura um arquivo que está na fase de Staged para a fase de Modified ```
 ``` bash
-git restore --staged <nome_do_arquivo
+git restore --staged <nome_do_arquivo>
 ```
 [<img width="30" src="https://cdn-icons-png.flaticon.com/512/137/137518.png" alt="" title="" class="loaded">](/README.md)
